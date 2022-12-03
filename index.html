@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/1851f105fc.js" crossorigin="anonymous"></script>
+</head>	
+<body>
+<div id="header">
+    <div class="container">
+	    <nav>
+		    <i class="fa-solid fa-user-secret"></i>
+		    <ul id="sidemenu">
+		       <li><a href="#header">Home</a></li>
+		       <li><a href="#about">About</a></li>
+			   <li><a href="#hobbies">Hobbies</a></li>
+			   <li><a href="#favorites">Favorites</a></li>
+			   <i class="fas fa-times" onclick="closemenu()"></i>
+		    </ul>
+		    <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+		<div class="header-text">
+		    <p>Bachelor of Scince in Information Techology</p>
+			<h1>Hi, I'm <span>SHEMVER NILE</span> ANINIPOC <br> FROM ICCT COLLEGES</br></h1>
+		</div>
+	</div>
+</div>
+<!----------about---------->
+<div id="about">
+    <div class="container">
+	    <div class="row">
+		    <div class="about-col-1">
+			    <img src="image/shem.png.jpg">
+			</div>
+			<div class="about-col-2">
+			    <h1 class="sub-title">About Me</h1>
+				<p class="p">Hi, I'm Shemver Nile B. Aninipoc, I lived in Blk 1 Lot 16 Ph 1 Southville 9 Brgy. Pinugay Baras, Rizal. I was born on December 20, 2001 in Lapu-Lapu City, Cebu. I'm 20 years old and taking Bachelor of Science in Information Technology and studying at ICCT Colleges.My objectives is To gain valuable knowledge and skills to complement what I learned from school in real work environment, in return, o offer my service and determination to be an asset to your company throughout the course of my training.</p>			
+			</div>
+		</div>
+	</div>
+</div>	
+<!----------hobbies---------->
+<div id="hobbies">
+	<div class="container">
+		<h1 class="sub-title">My Hobbies</h1>
+		<div class="hobbies-list">			 
+			<div class="hob1">
+				<i class="fa-solid fa-basketball"></i>
+				<h2>BASKETBALL</h2>
+				<p>Basketball is well-known for being an enjoyable sport for both young and old. Basketball is a terrific way to get in shape, have fun with friends, and perhaps meet some new ones. In my perspective, there are a lot of both good and bad things about basketball. While many view basketball as a fun hobby, for many others it is a passionate activity.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div class="hob2">
+				<i class="fa-solid fa-bicycle"></i>
+				<h2>Cycling</h2>
+				<p>Riding my bike is a great way to get some fresh air. I fell free and comfortable when i go outside with my bike hanging out with my friends. Getting away from sadness, overthinking and depression.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div class="hob3">
+				<i class="fa-solid fa-gamepad"></i>
+				<h2>PLAYING ONLINE GAMES</h2>
+				<p>I play online games with my friends to make a bonding even though they're not around, sometimes we're bored and tired all day, we rather play online games like mobile legends to relieve laziness.</p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!----------favorites---------->
+<div id="favorites">
+	<div class="container">
+		<h1 class="sub-title">My Favorites</h1>
+		<div class="favorites-list">
+			<div class="favorites1">
+				<img src="image/gang2.jpg">
+				<div class="layer">
+					<h3>SINIGANG</h3>
+					<p>One Filipino comfort meal is sinigang. Due to its acidic flavor, it aids in bodily cooling during hot weather. The dish has several varieties and can be made in a variety of ways. Sinigang's amount and quality are both simply modifiable based on personal tastes.</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="favorites2">
+				<img src="image/22basket.jpg">
+				<div class="layer">
+					<h3>BASKETBALL</h3>
+					<p>Basketball is a terrific method to express yourself and to take your mind off of stuff. It may work your entire body like a sport. It's a wonderful hobby for everyone and a wonderful method to strengthen relationships with loved ones and friends.</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="favorites3">
+				<img src="image/turon.jpg">
+				<div class="layer">
+					<h3>FILIPINO MERYENDA</h3>
+					<p>Sliced bananas and ripe jackfruit are usually rolled in a thin pastry skin, brown sugar sprinkled on top. It is fried in deep oil till crisp and golden brown. Sesame seeds are occasionally added as a garnish. In my recipe, the exterior is lightly coated with caramel.</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See more</a>
+	</div>
+</div>
+<script>
+	
+	var sidemenu = document.getElementById("sidemenu");
+	
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+	function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+	
+</script>
+
+</body>
+</html>		 
